@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#cerchi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; 
+    margin-top: -40px;
+}
+
+#cerchi-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero{
+    width: 100vw;
+    min-height: 100vh; 
+    background-color: yellowgreen;
+}
+
+.title{
+    margin-top: 150px;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+
+
+.rules{
+    font-family: 'Josefin Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#points{
+    margin-top: 150px;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    display: block;
+}
+
+
+
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    cursor: crosshair;
+}
